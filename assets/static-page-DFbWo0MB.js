@@ -1,0 +1,1 @@
+import{t as e}from"./prefs-NyLZQgl_.js";e();
