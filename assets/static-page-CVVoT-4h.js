@@ -1,0 +1,1 @@
+import{t as e}from"./prefs-2OOVB2Bs.js";e();
