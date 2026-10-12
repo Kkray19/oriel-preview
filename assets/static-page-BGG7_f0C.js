@@ -1,0 +1,1 @@
+import{t as e}from"./prefs-CNpJq-lf.js";e();
