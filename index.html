@@ -18,9 +18,9 @@
       setTimeout(function () { if (!d.classList.contains('js-ready')) d.classList.remove('js'); }, 3000);
     })();
   </script>
-  <script type="module" crossorigin src="/oriel-preview/assets/main-6nyvjPIK.js"></script>
-  <link rel="modulepreload" crossorigin href="/oriel-preview/assets/prefs-2OOVB2Bs.js">
-  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs-C0t6mxIy.css">
+  <script type="module" crossorigin src="/oriel-preview/assets/main-FMLB08Yo.js"></script>
+  <link rel="modulepreload" crossorigin href="/oriel-preview/assets/prefs-DIjhSjLo.js">
+  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs--HvYhqGf.css">
 </head>
 <body>
   <svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
@@ -164,18 +164,19 @@
 
       <div class="wrap sessions__board" data-pins>
         <figure class="frame sessions__fig">
-          <div class="scrollx" tabindex="0" role="group" aria-label="AI usage dashboard picture. Scroll sideways on small screens.">
-            <div class="sessions__imgwrap">
-              <img src="/oriel-preview/app/ai-sessions.webp" width="1624" height="788" loading="lazy" decoding="async"
+          <div class="scrollx" tabindex="0" role="group" aria-label="Interactive AI usage dashboard. Scroll sideways on small screens.">
+            <div class="sessions__imgwrap"><div class="dash" data-dash tabindex="-1">
+              <img src="/oriel-preview/app/ai-home.webp" width="1624" height="788" loading="lazy" decoding="async"
                    alt="The AI usage dashboard with Limits rings at 70 and 64 percent, an API value of $121.76 for today, a Working now list with one session that has a question, an hourly bar chart and a 13-week activity heatmap." />
               <svg class="pins" viewBox="0 0 1624 788" aria-hidden="true" focusable="false">
                 <g class="pin" style="--d:0ms"><circle class="pin__ring" pathLength="1" cx="124" cy="76" r="25"/><circle class="pin__dot" cx="124" cy="76" r="19"/><text x="124" y="83" text-anchor="middle">1</text></g>
                 <g class="pin" style="--d:220ms"><circle class="pin__ring" pathLength="1" cx="629" cy="76" r="25"/><circle class="pin__dot" cx="629" cy="76" r="19"/><text x="629" y="83" text-anchor="middle">2</text></g>
                 <g class="pin" style="--d:440ms"><circle class="pin__ring" pathLength="1" cx="1012" cy="76" r="25"/><circle class="pin__dot" cx="1012" cy="76" r="19"/><text x="1012" y="83" text-anchor="middle">3</text></g>
               </svg>
-            </div>
+            </div></div>
           </div>
-          <figcaption>Real render, fictional data.</figcaption>
+          <div class="dash__controls" data-dash-controls></div>
+          <figcaption>Real renders, fictional data. Each view is its own render, so its invented figures don’t always match the others.</figcaption>
         </figure>
 
         <ol class="sessions__notes">

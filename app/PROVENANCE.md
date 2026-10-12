@@ -12,3 +12,5 @@ Every `.webp` here is a **genuine render of the LocalNook app drawn with fiction
 - **Wallpaper and menu bar:** the purple gradient and the menu-bar strip are the renderer's own stand-in desktop, not a real wallpaper.
 - **Still on-screen fixtures worth a human glance before launch:** the media rows name real songs and artists (titles only, invented playback state); the Devices render shows a device called "Studio AirPods Pro 2" and Apple's symbol for it (see docs/LAUNCH_READINESS.md, "Apple marks").
 - **Not used on purpose:** `~/Desktop/LocalNook-acceptance/*.png` (acceptance screenshots that may contain a real session list) and `~/Downloads/LocalNook-24-second-preview.mp4` (unknown provenance). They were never opened.
+
+- **AI dashboard explorer (2026-10-12):** `ai-*.webp` are the sealed renderer's scenes `ai-dashboard`, `-middle`, `-end`, `-period`, `-list`, `-today`, `-today-hour`, `-today-hour-tokens`, `-today-calendar`, `-today-picked`, `-activity`, `-activity-day`, `-activity-day-dollars`, `-activity-week`. The renderer draws the drill-downs from a different invented snapshot than the main dashboard, so figures differ between views; the site says so.
