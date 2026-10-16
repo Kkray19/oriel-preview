@@ -7,6 +7,16 @@
   <title>Oriel: the notch, put to work</title>
   <meta name="description" content="Oriel is a local-first utility for the Mac notch: media, a file tray, calendar, timers, notes, system stats and a live view of your AI coding sessions. Free for macOS 15+ on Apple Silicon." />
   <meta name="theme-color" content="#f3f3f1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Oriel" />
+  <meta property="og:title" content="Oriel: the notch, put to work" />
+  <meta property="og:description" content="Oriel is a local-first utility for the Mac notch: media, a file tray, calendar, timers, notes, system stats and a live view of your AI coding sessions. Free for macOS 15+ on Apple Silicon." />
+  <meta property="og:image" content="https://kkray19.github.io/oriel-preview/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="The Oriel logo" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://kkray19.github.io/oriel-preview/og-image.png" />
   <link rel="icon" href="/oriel-preview/favicon.svg" type="image/svg+xml" />
   <script>
     /* Progressive enhancement gate. Critical copy never depends on it. If the
@@ -431,7 +441,7 @@
         </div>
 
         <ol class="steps">
-          <li><b>Get the app.</b> <span data-download-note>Beta 0.1.5 is open to invited testers in the United States. Its release page on GitHub has the disk image, its SHA-256 checksum and the install steps. It sends usage data, as its terms describe.</span></li>
+          <li><b>Get the app.</b> <span data-download-note>Beta 0.1.5 is open to invited testers in the United States. Its release page on GitHub has the disk image, its SHA-256 checksum and the install steps. It sends usage data, as its terms describe. The release notes start with a one-line Terminal install that avoids macOS’s first-open warning, because macOS flags only browser downloads. A browser download needs Open Anyway in System Settings&nbsp;▸&nbsp;Privacy &amp; Security.</span></li>
           <li><b>Move it to Applications.</b> <span>Needed for “Open at login” to be offered.</span></li>
           <li><b>Open it.</b> <span>First it asks you to accept its License Agreement and Privacy Policy. A four-page Setup Assistant (Welcome, Features, Permissions, All set) lets you tick what you want. Nothing you choose in it is saved until you press <i>Open Oriel</i>.</span></li>
           <li><b>Allow things only when a feature asks.</b> <span>The assistant only <i>shows</i> permission states. Each feature asks for its own, at first use.</span></li>
@@ -460,7 +470,7 @@
         <p class="note" data-gatekeeper-note>
           <b>About macOS’s first-open warning.</b> Current builds are signed by the developer’s own certificate and
           are <u>not</u> notarized by Apple, so macOS asks for an extra approval in System Settings&nbsp;▸&nbsp;Privacy &amp;
-          Security the first time. That is expected to change before the full release, and this note will change with it.
+          Security (Open Anyway) the first time. Invited testers can avoid it with the one-line Terminal install at the top of the beta’s release notes, because macOS flags only browser downloads. That is expected to change before the full release, and this note will change with it.
         </p>
       </div>
     </section>
@@ -483,7 +493,7 @@
           </ul>
 
           <div class="ticket__status" data-status role="status" aria-live="polite">
-            Beta 0.1.5 is open to invited testers in the United States. It sends usage data, as its terms describe. There’s no waitlist form here, and nothing on this page collects your email.
+            Beta 0.1.5 is open to invited testers in the United States. It sends usage data, as its terms describe. Invited testers get a one-line Terminal install in the release notes that avoids macOS’s first-open warning. There’s no waitlist form here, and nothing on this page collects your email.
           </div>
 
           <button class="btn btn--ink btn--block" type="button" data-download disabled>Invited testers have the link</button>
@@ -520,7 +530,7 @@
           <details><summary>Does it send my data anywhere?</summary><p>Usage data, yes: this version sends it to Oriel’s own collector, as the License Agreement and Privacy Policy you accept in the app describe. It covers which features you use and your settings, the symbols, leagues and teams you follow, the town or city and country Weather shows, AI usage figures (tokens, cost and plan limits) and summaries of Oriel’s network requests. It never includes keys, sign-ins, what you type, songs or your exact location. It is part of the terms you accept, with no separate switch, and you can delete what your Mac has sent in Settings&nbsp;▸&nbsp;Privacy. There’s no account. Everything else that Oriel’s network client reaches goes only to the other named hosts in the <a href="#privacy">table above</a>, every one behind its own switch. The chat sheet’s web pages and Apple’s place service for Weather go outside that client, and Settings&nbsp;▸&nbsp;Privacy shows how many requests it has made to each host since launch, and how the last one was answered.</p></details>
           <details><summary>What does it read to show my AI sessions?</summary><p>Only what Claude Code, Codex and the ChatGPT desktop app already keep on your Mac. From the start: the names, dates and sizes of Claude Code and Codex transcript files, and the update times in the ChatGPT desktop app’s local chat list. What is inside those files, chat titles and the Claude app’s usage file are read only if you switch those on. Token counts are kept in memory unless you opt in to saving a history file, which you can delete at any time. Their daily totals by model are part of the usage data Oriel sends.</p></details>
           <details><summary>Why would it ask for an administrator password?</summary><p>Only for the optional fan-control and lid-closed helper, once, from Settings. It’s a separate program with a pinned connection to the app, and it hands the fans back to macOS if the app quits, crashes or anything looks hot.</p></details>
-          <details><summary>Will macOS warn me when I open it?</summary><p data-faq-gatekeeper>Today, yes: current builds aren’t notarized by Apple, so macOS asks for approval in System Settings&nbsp;▸&nbsp;Privacy &amp; Security. The plan is to notarize before the official download opens.</p></details>
+          <details><summary>Will macOS warn me when I open it?</summary><p data-faq-gatekeeper>Today, yes: current builds aren’t notarized by Apple, so macOS asks for approval in System Settings&nbsp;▸&nbsp;Privacy &amp; Security (Open Anyway). Invited testers can avoid it with the one-line Terminal install at the top of the beta’s release notes, because macOS flags only browser downloads. The plan is to notarize before the official download opens.</p></details>
           <details><summary>Is it open source?</summary><p>No, not the app. Oriel is the new name for the app released until now as LocalNook. From LocalNook 0.5.0 on it is proprietary software, and LocalNook releases 0.2.0 to 0.4.8 stay under the GPL for the people who have them. The root fan helper, a separate program, is GPL-3.0-or-later, and its complete source is public at <a href="https://github.com/Kkray19/LocalNook-fan-helper-source" rel="noopener">Kkray19/LocalNook-fan-helper-source</a>. Full notices are in the app under About ▸ License.</p></details>
           <details><summary>Does it cost anything?</summary><p>No. Oriel is free: no price, no subscription, no account and no licence key.</p></details>
           <details><summary>How do I get help?</summary><p>A proper support route is one of the open launch items. Questions about privacy and the License Agreement are answered at oriel.nook@gmail.com. See the <a href="/oriel-preview/support.html">support page</a> for where things stand.</p></details>
