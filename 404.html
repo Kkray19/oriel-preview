@@ -5,7 +5,7 @@
   <meta name="robots" content="noindex, nofollow" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Oriel: the notch, put to work</title>
-  <meta name="description" content="Oriel is a local-first utility for the Mac notch: media, a file tray, calendar, timers, notes, system stats and a live view of your AI coding sessions. macOS 15+, Apple Silicon." />
+  <meta name="description" content="Oriel is a local-first utility for the Mac notch: media, a file tray, calendar, timers, notes, system stats and a live view of your AI coding sessions. Free for macOS 15+ on Apple Silicon." />
   <meta name="theme-color" content="#f3f3f1" />
   <link rel="icon" href="/oriel-preview/favicon.svg" type="image/svg+xml" />
   <script>
@@ -18,9 +18,9 @@
       setTimeout(function () { if (!d.classList.contains('js-ready')) d.classList.remove('js'); }, 3000);
     })();
   </script>
-  <script type="module" crossorigin src="/oriel-preview/assets/main-BdTfMi37.js"></script>
-  <link rel="modulepreload" crossorigin href="/oriel-preview/assets/prefs-DhkU4dK8.js">
-  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs-D87PHc0M.css">
+  <script type="module" crossorigin src="/oriel-preview/assets/main-CNnKDZ2B.js"></script>
+  <link rel="modulepreload" crossorigin href="/oriel-preview/assets/prefs-biKYkVi5.js">
+  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs-CEOs1HIy.css">
 </head>
 <body>
   <svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
@@ -81,7 +81,7 @@
         <span class="topnotch__label" data-wing-label></span>
       </span>
       <span class="topnotch__catch" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M3 11v4.5h14V11M10 3v8m-3.5-3L10 11.5 13.5 8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-catch-label>Drop to add to the Tray</span></span>
-      <a class="topnotch__cta btn btn--ink btn--sm" href="#pricing">Get Oriel</a>
+      <a class="topnotch__cta btn btn--ink btn--sm" href="#pricing">Get Oriel free</a>
       <button class="topnotch__menu" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button>
         <span class="sr-only">Menu</span>
         <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 7h14M3 13h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
@@ -99,7 +99,7 @@
           <div class="intro__body">
             <svg class="intro__mark" aria-hidden="true"><use href="#oriel-mark"/></svg>
             <p class="intro__title"><span class="intro__meet">Meet</span> <span class="intro__name">Oriel.</span></p>
-            <p class="intro__sub">The notch on your Mac, put to work. Quietly, and on your Mac alone.</p>
+            <p class="intro__sub">The notch on your Mac, put to work. Quietly, and local-first.</p>
             <a class="intro__scroll" href="#top"><span>Scroll to open</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>
@@ -109,14 +109,14 @@
     <!-- ───────── 1. Hero ───────── -->
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="wrap hero__copy">
-        <p class="eyebrow"><span class="eyebrow__dot"></span>A local-first notch utility for macOS</p>
+        <p class="eyebrow"><span class="eyebrow__dot"></span>A free, local-first notch utility for macOS</p>
         <h1 id="hero-title" data-split>The notch,<br /><span class="tone">put to work.</span></h1>
         <p class="lede">
           Oriel turns the space around your MacBook’s camera notch into a small, quiet control room:
           what’s playing, your next event, running timers, files in transit, and what your AI coding agents are doing.
         </p>
         <div class="hero__ctas">
-          <a class="btn btn--ink" href="#pricing"><svg class="btn__icon" aria-hidden="true"><use href="#oriel-mark"/></svg>Get Oriel</a>
+          <a class="btn btn--ink" href="#pricing" aria-label="Get Oriel free"><svg class="btn__icon" aria-hidden="true"><use href="#oriel-mark"/></svg>Get Oriel<span class="btn__badge" aria-hidden="true">Free</span></a>
           <a class="btn btn--light" href="#quiet">Take the tour</a>
         </div>
       </div>
@@ -145,8 +145,8 @@
       <ul class="wrap figures" aria-label="At a glance">
         <li><b data-count="15">15</b><b class="figures__suffix">+</b><span>macOS version it needs, on Apple Silicon</span></li>
         <li><b data-count="0">0</b><span>accounts to create, and no subscription</span></li>
-        <li><b data-count="0">0</b><span>bytes of telemetry it sends</span></li>
-        <li><b data-count="11">11</b><span>named hosts it can ever reach, each behind a switch</span></li>
+        <li><b data-count="0">0</b><span>keys, sign-ins, typed text, songs or exact locations in the usage data it sends</span></li>
+        <li><b data-count="18">18</b><span>hosts Oriel’s own network client can reach: 17 named ones and Oriel’s collector, each behind a switch except Oriel’s collector</span></li>
       </ul>
     </section>
 
@@ -156,9 +156,10 @@
         <p class="kicker">For people who run coding agents</p>
         <h2 id="sessions-title" data-split>See your agents <span class="tone">without leaving</span> what you’re doing.</h2>
         <p class="lede lede--narrow">
-          The AI usage dashboard reads what Claude Code and Codex already write on your Mac. Nothing is sent to
-          anyone. The orb beside the closed notch turns while an agent works, and a question from an agent is
-          announced there until you answer.
+          The AI usage dashboard reads what Claude Code and Codex already write on your Mac. Session titles,
+          contents and your project names are never sent; token, cost and plan-limit figures are part of the
+          usage data Oriel sends, as the Privacy Policy you accept in the app describes. The orb beside the closed notch turns while an
+          agent works, and a question from an agent is announced there until you answer.
         </p>
       </div>
 
@@ -190,7 +191,7 @@
         <summary>The fine print, up front</summary>
         <ul class="ticks">
           <li>Session reading is <b>off until you choose it</b> (“Read labels from session files”); at the lowest setting it sees only that a transcript is being written.</li>
-          <li>Token counts live in memory unless you also switch on “Save usage history on this Mac”, which is off by default and deletable.</li>
+          <li>Token counts live in memory unless you also switch on “Save usage history on this Mac”, which is off by default and deletable. Their daily totals by model are part of the usage data Oriel sends.</li>
           <li>Permission prompts leave nothing in a transcript, so Oriel can’t see them. A pending Codex approval is invisible too.</li>
           <li>The dashboard’s daily price list is the one download it makes by default; it can be switched off.</li>
         </ul>
@@ -365,44 +366,48 @@
       <div class="chapter__bg" aria-hidden="true"></div>
       <div class="wrap chapter__body">
         <p class="kicker kicker--dark">Local-first, and checkable</p>
-        <h2 id="privacy-title" data-split>It works for you. It doesn’t <span class="tone">phone home.</span></h2>
+        <h2 id="privacy-title" data-split>It works for you. And you can <span class="tone">check it.</span></h2>
         <ul class="bigfacts">
           <li><b>No account.</b> You don’t sign in to use Oriel.</li>
-          <li><b>No telemetry.</b> Nothing about how you use it is collected.</li>
-          <li><b>No licence server.</b> The app doesn’t check in anywhere to run.</li>
+          <li><b>Usage data, in the terms.</b> This version sends usage data to Oriel’s own collector, as the License Agreement and Privacy Policy you accept in the app describe: never keys, sign-ins, what you type, songs or your exact location. Delete what it sent in Settings&nbsp;▸&nbsp;Privacy.</li>
+          <li><b>No licence server.</b> The app doesn’t check a licence anywhere to run.</li>
         </ul>
         <p class="lede lede--dark">
-          The only network access is the list below, each host behind its own switch. Oriel’s network client
-          refuses every other address in code, and Settings&nbsp;▸&nbsp;Privacy shows every request made since launch.
+          Oriel’s own network client reaches only the hosts in the list below, each behind its own switch except Oriel’s own collector, which is part of the terms and has none. Two things go outside that client: the chat sheet’s web pages (claude.ai or chatgpt.com, and the sign-in pages they send you to) and Apple’s place service for Weather. The client refuses every other address in code, and Settings&nbsp;▸&nbsp;Privacy shows how many requests it has made to each host since launch, and how the last one was answered.
         </p>
 
         <details class="fold fold--dark">
-          <summary>See all 11 hosts it can reach, and when</summary>
+          <summary>See all 18 hosts Oriel’s network client can reach, and when</summary>
         <div class="tablewrap" tabindex="0" role="group" aria-label="Hosts Oriel can contact. Scroll sideways on small screens.">
           <table class="hosts">
             <caption class="sr-only">Hosts Oriel may contact, what for, and whether the feature starts on or off</caption>
             <thead><tr><th scope="col">Host</th><th scope="col">What for</th><th scope="col">When it’s used</th></tr></thead>
             <tbody>
               <tr><th scope="row">api.met.no</th><td>Weather forecast for a place you type (MET Norway)</td><td>Opt-in</td></tr>
-              <tr><th scope="row">finnhub.io</th><td>Finance quotes, with your own key</td><td>Opt-in</td></tr>
+              <tr><th scope="row">query1.finance.yahoo.com</th><td>Finance quotes and charts with no key (Yahoo Finance; unofficial)</td><td>Opt-in</td></tr>
+              <tr><th scope="row">finnhub.io</th><td>Finance quotes with your own key, or as Yahoo’s backup</td><td>Opt-in</td></tr>
               <tr><th scope="row">www.thesportsdb.com<br/>r2.thesportsdb.com</th><td>Sports fixtures and badges, with your own paid key</td><td>Opt-in</td></tr>
+              <tr><th scope="row">api.openf1.org<br/>api.motogp.pulselive.com</th><td>Formula 1 and MotoGP session results on an open race card (OpenF1, non-commercial; MotoGP’s feed, unofficial)</td><td>Opt-in</td></tr>
               <tr><th scope="row">i.scdn.co</th><td>The cover of the song Spotify is playing</td><td>On from the start</td></tr>
               <tr><th scope="row">lrclib.net</th><td>Synced lyrics</td><td>Opt-in</td></tr>
               <tr><th scope="row">accounts.spotify.com<br/>api.spotify.com</th><td>Signing in to your own Spotify account</td><td>Opt-in</td></tr>
               <tr><th scope="row">raw.githubusercontent.com</th><td>A public price list for the AI dashboard’s “API value”, at most once a day</td><td>On from the start</td></tr>
+              <tr><th scope="row">chatgpt.com</th><td>Live ChatGPT plan limits on the AI dashboard, with the sign-in the ChatGPT app saved (undocumented by OpenAI)</td><td>Opt-in</td></tr>
+              <tr><th scope="row">api.anthropic.com</th><td>Live Claude plan limits on the AI dashboard, with the sign-in Claude Code saved (undocumented by Anthropic)</td><td>Opt-in</td></tr>
               <tr><th scope="row">api.github.com<br/>github.com</th><td>Oriel’s own update check; the download only when you press Install and Relaunch</td><td>Opt-in*</td></tr>
+              <tr><th scope="row">release-assets.githubusercontent.com</th><td>GitHub’s file server, where github.com sends an update’s download — reached only by that redirect, after you press Install and Relaunch</td><td>Opt-in*</td></tr>
+              <tr><th scope="row">Oriel’s usage-data collector</th><td>Usage data, and requests to delete it, as the License Agreement and Privacy Policy you accept in the app describe; its address is listed in Settings&nbsp;▸&nbsp;Privacy</td><td>Part of the terms; no switch</td></tr>
             </tbody>
           </table>
         </div>
         </details>
         <p class="note note--dark">
-          *The Setup Assistant asks about the update check with the box ticked. Documented for Oriel 0.5.1 in the
+          *The Setup Assistant asks about the update check with the box ticked. Documented for the Oriel 0.1.4 beta in the
           app’s own README and audit notes, not a third-party certification.
         </p>
         <p class="note note--dark">
-          Buying Oriel from this website is a separate matter: payment details will be handled by a payment
-          provider we haven’t chosen yet, and this page will say exactly what is collected before it takes a single
-          order. <a href="/oriel-preview/privacy.html">Privacy details</a>.
+          This website collects nothing about you: the download is free, with no checkout, no account and no licence
+          key, so this website never asks for an email address or payment details. <a href="/oriel-preview/privacy.html">Privacy details</a>.
         </p>
       </div>
     </section>
@@ -426,9 +431,9 @@
         </div>
 
         <ol class="steps">
-          <li><b>Get the app.</b> <span data-download-note>The official download isn’t open yet; this page will carry the install notes for the release that ships.</span></li>
+          <li><b>Get the app.</b> <span data-download-note>Beta 0.1.4 is open to invited testers in the United States. Its release page on GitHub has the disk image, its SHA-256 checksum and the install steps. It sends usage data, as its terms describe.</span></li>
           <li><b>Move it to Applications.</b> <span>Needed for “Open at login” to be offered.</span></li>
-          <li><b>Open it.</b> <span>A four-page Setup Assistant (Welcome, Features, Permissions, All set) lets you tick what you want. Nothing is saved until you press <i>Open Oriel</i>.</span></li>
+          <li><b>Open it.</b> <span>First it asks you to accept its License Agreement and Privacy Policy. A four-page Setup Assistant (Welcome, Features, Permissions, All set) lets you tick what you want. Nothing is saved until you press <i>Open Oriel</i>.</span></li>
           <li><b>Allow things only when a feature asks.</b> <span>The assistant only <i>shows</i> permission states; each feature asks for its own, at first use.</span></li>
         </ol>
       </div>
@@ -455,51 +460,51 @@
         <p class="note" data-gatekeeper-note>
           <b>About macOS’s first-open warning.</b> Current builds are signed by the developer’s own certificate and
           are <u>not</u> notarized by Apple, so macOS asks for an extra approval in System Settings&nbsp;▸&nbsp;Privacy &amp;
-          Security the first time. That is expected to change before anything is sold; this note will change with it.
+          Security the first time. That is expected to change before the full release; this note will change with it.
         </p>
       </div>
     </section>
 
-    <!-- ───────── 8. Pricing & purchase ───────── -->
+    <!-- ───────── 8. Download (free) ───────── -->
     <section class="section pricing" id="pricing" aria-labelledby="pricing-title" data-pricing>
       <div class="wrap">
-        <p class="kicker">Availability</p>
-        <h2 id="pricing-title" data-split>Getting <span class="tone">Oriel.</span></h2>
+        <p class="kicker">Free download</p>
+        <h2 id="pricing-title" data-split>Getting Oriel <span class="tone">is free.</span></h2>
       </div>
       <div class="wrap pricing__grid">
         <div class="ticket" data-ticket>
           <div class="ticket__tab" aria-hidden="true"></div>
-          <p class="ticket__eyebrow" data-mode-badge hidden></p>
           <h3>Oriel for Mac</h3>
-          <p class="ticket__price" data-price aria-live="polite">Price to be announced</p>
-          <p class="ticket__sub" data-price-sub>A one-time purchase is the model being considered; nothing is decided.</p>
+          <p class="ticket__price ticket__price--free" data-price>Free</p>
+          <ul class="ticket__perks" aria-label="What free means here">
+            <li>No account</li>
+            <li>No licence key</li>
+            <li>No subscription</li>
+          </ul>
 
           <div class="ticket__status" data-status role="status" aria-live="polite">
-            Purchasing isn’t open yet. There’s no waitlist form here, and nothing on this page collects your email.
+            Beta 0.1.4 is open to invited testers in the United States. It sends usage data, as its terms describe. There’s no waitlist form here, and nothing on this page collects your email.
           </div>
 
-          <button class="btn btn--ink btn--block" type="button" data-buy disabled>Purchasing isn’t open yet</button>
+          <button class="btn btn--ink btn--block" type="button" data-download disabled>Invited testers have the link</button>
 
           <ul class="ticks ticket__list">
-            <li>Official download for macOS 15+ on Apple Silicon</li>
+            <li>Free beta for macOS 15+ on Apple Silicon, for invited testers in the United States</li>
             <li>The Setup Assistant and optional in-app update check</li>
           </ul>
         </div>
 
         <div class="pricing__side">
-          <h3>Before it goes on sale</h3>
-          <p>These are unsettled, and this page won’t guess at them:</p>
+          <h3>Before the full release</h3>
+          <p>These come first, and this page won’t pretend they’re done:</p>
           <ul class="ticks">
-            <li>The price, and whether updates are included</li>
-            <li>Purchase terms and a refund policy</li>
-            <li>A privacy policy covering payment data</li>
-            <li>A support route you can find</li>
             <li>Apple notarization of the download</li>
+            <li>The fan helper’s source published alongside it</li>
+            <li>A support route you can find</li>
           </ul>
           <p class="note">Past releases (0.2.0 to 0.4.8) were published under the GNU GPL; the current app is proprietary software. See the <a href="#faq">FAQ</a>.</p>
         </div>
       </div>
-      <p class="wrap pricing__devnote" data-dev-note hidden></p>
     </section>
 
     <!-- ───────── 9. FAQ ───────── -->
@@ -512,13 +517,13 @@
         <div class="faq__list">
           <details><summary>Do I need a Mac with a notch?</summary><p>The point of Oriel is the notch, but on a display with no camera housing it draws its panel at the top centre of the screen.</p></details>
           <details><summary>Which Macs and macOS versions?</summary><p>Apple Silicon Macs on macOS 15 or later. It’s built and tested on macOS 27; some effects, like Liquid Glass, need macOS 26 and fall back gracefully on older versions.</p></details>
-          <details><summary>Does it send my data anywhere?</summary><p>There’s no telemetry and no account. It contacts only the named hosts in the <a href="#privacy">table above</a>, each behind its own switch, and shows you every request in Settings&nbsp;▸&nbsp;Privacy.</p></details>
-          <details><summary>What does it read to show my AI sessions?</summary><p>Only what Claude Code and Codex already write locally, and only if you switch on session reading. Token counts are kept in memory unless you opt in to saving a history file, which you can delete at any time.</p></details>
+          <details><summary>Does it send my data anywhere?</summary><p>Usage data, yes: this version sends it to Oriel’s own collector, as the License Agreement and Privacy Policy you accept in the app describe, and never keys, sign-ins, what you type, songs or your exact location. It is part of the terms you accept, with no separate switch, and you can delete what your Mac has sent in Settings&nbsp;▸&nbsp;Privacy. There’s no account. Everything else that Oriel’s network client reaches goes only to the other named hosts in the <a href="#privacy">table above</a>, every one behind its own switch; the chat sheet’s web pages and Apple’s place service for Weather go outside that client, and Settings&nbsp;▸&nbsp;Privacy shows how many requests it has made to each host since launch, and how the last one was answered.</p></details>
+          <details><summary>What does it read to show my AI sessions?</summary><p>Only what Claude Code and Codex already write locally: names, dates and sizes of transcript files from the start; what is inside them only if you switch on session reading. Token counts are kept in memory unless you opt in to saving a history file, which you can delete at any time. Their daily totals by model are part of the usage data Oriel sends.</p></details>
           <details><summary>Why would it ask for an administrator password?</summary><p>Only for the optional fan-control and lid-closed helper, once, from Settings. It’s a separate program with a pinned connection to the app, and it hands the fans back to macOS if the app quits, crashes or anything looks hot.</p></details>
-          <details><summary>Will macOS warn me when I open it?</summary><p data-faq-gatekeeper>Today, yes: current builds aren’t notarized by Apple, so macOS asks for approval in System Settings&nbsp;▸&nbsp;Privacy &amp; Security. The plan is to notarize before anything is sold.</p></details>
+          <details><summary>Will macOS warn me when I open it?</summary><p data-faq-gatekeeper>Today, yes: current builds aren’t notarized by Apple, so macOS asks for approval in System Settings&nbsp;▸&nbsp;Privacy &amp; Security. The plan is to notarize before the official download opens.</p></details>
           <details><summary>Is it open source?</summary><p>No, not the app. Oriel is the new name for the app released until now as LocalNook; from LocalNook 0.5.0 on it is proprietary software, and LocalNook releases 0.2.0 to 0.4.8 stay under the GPL for the people who have them. The root fan helper, a separate program, is GPL-3.0-or-later, and its complete source is public at <a href="https://github.com/Kkray19/LocalNook-fan-helper-source" rel="noopener">Kkray19/LocalNook-fan-helper-source</a>. Full notices are in the app under About ▸ License.</p></details>
-          <details><summary>Is there a subscription?</summary><p>The app has none and needs no account. How it will be sold hasn’t been decided; a one-time purchase is the model being considered.</p></details>
-          <details><summary>How do I get help?</summary><p>A proper support route is one of the open launch items. See the <a href="/oriel-preview/support.html">support page</a> for where things stand.</p></details>
+          <details><summary>Does it cost anything?</summary><p>No. Oriel is free: no price, no subscription, no account and no licence key.</p></details>
+          <details><summary>How do I get help?</summary><p>A proper support route is one of the open launch items. Questions about privacy and the License Agreement are answered at oriel.nook@gmail.com. See the <a href="/oriel-preview/support.html">support page</a> for where things stand.</p></details>
         </div>
       </div>
     </section>
@@ -546,12 +551,10 @@
       trademarks of OpenAI; Spotify is a trademark of Spotify AB. Pictures of the app are renders drawn with fictional data,
       except the song shown playing: “Midnight City” by M83 is a real track, picked by us only to show the player. Its artist
       and label have no connection with Oriel and don’t endorse it, and the album cover in the pictures is a drawn stand-in,
-      not the record’s artwork. “Oriel” is the working new name for the app currently built and released as LocalNook; the rename is not final.
+      not the record’s artwork. Oriel is the Mac app formerly called LocalNook.
     </p>
   </footer>
 
-  <!-- Checkout dialog (content rendered by src/commerce/checkout-ui.ts) -->
-  <dialog class="checkout" data-checkout aria-labelledby="checkout-title"></dialog>
   <dialog class="demo" data-demo aria-labelledby="demo-title"></dialog>
 </body>
 </html>

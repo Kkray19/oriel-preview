@@ -8,9 +8,9 @@
   <meta name="description" content="What Oriel the app and this website do and do not collect." />
   <meta name="theme-color" content="#f3f3f1" />
   <link rel="icon" href="/oriel-preview/favicon.svg" type="image/svg+xml" />
-  <script type="module" crossorigin src="/oriel-preview/assets/prefs-DhkU4dK8.js"></script>
-  <script type="module" crossorigin src="/oriel-preview/assets/static-page-zElpWjV-.js"></script>
-  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs-D87PHc0M.css">
+  <script type="module" crossorigin src="/oriel-preview/assets/prefs-biKYkVi5.js"></script>
+  <script type="module" crossorigin src="/oriel-preview/assets/static-page-Ba6jGBr8.js"></script>
+  <link rel="stylesheet" crossorigin href="/oriel-preview/assets/prefs-CEOs1HIy.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -27,27 +27,28 @@
 
     <p class="kicker">Privacy</p>
     <h1>What is collected, <span class="tone">and where.</span></h1>
-    <p class="lede lede--narrow">There are three different things here, kept apart on purpose: this website, the app, and buying the app (not yet live).</p>
+    <p class="lede lede--narrow">There are three different things here, kept apart on purpose: this website, the app, and downloading the app.</p>
 
     <h2>This website</h2>
     <ul>
       <li>No analytics, no session replay, no advertising or tracking scripts.</li>
       <li>No cookies. Fonts and pictures are served from this site itself, with no third-party requests.</li>
       <li>One preference is kept in your browser’s local storage if you use the “Pause motion” switch. It never leaves your browser.</li>
-      <li>Whoever hosts this site will see ordinary server logs (such as IP address and the pages requested). Which host that is hasn’t been decided; this page will name it.</li>
+      <li>Whoever hosts this site will see ordinary server logs (such as IP address and the pages requested). This site is hosted on GitHub Pages, which sees ordinary request details such as your IP address under GitHub’s privacy statement.</li>
     </ul>
 
     <h2>The app</h2>
     <ul>
-      <li>No account, no subscription, no licence server and no telemetry.</li>
-      <li>Network access only to the named hosts listed in <a href="/oriel-preview/#privacy">the table on the home page</a>, each behind its own switch; its network client refuses every other address in code.</li>
-      <li>Calendar, Reminders, session files, the clipboard and and AI session files are read on your Mac. Nothing in them is uploaded by Oriel.</li>
+      <li>No account, no subscription and no licence server.</li>
+      <li>This beta sends usage data to Oriel’s own collector, as the License Agreement and Privacy Policy you accept in the app describe, with no switch. Settings ▸ Privacy ▸ Usage data deletes what this Mac sent.</li>
+      <li>Otherwise, Oriel’s own network client reaches only the named hosts listed in <a href="/oriel-preview/#privacy">the table on the home page</a>, each behind its own switch except Oriel’s collector, and refuses every other address in code. Two things go outside that client: the chat sheet’s web pages (claude.ai or chatgpt.com, and the sign-in pages they send you to) and Apple’s place service for Weather.</li>
+      <li>Calendar, Reminders, the clipboard and AI session files are read on your Mac. Their contents are never uploaded; only the counts and AI usage totals that section 3 of the Privacy Policy lists are.</li>
     </ul>
-    <p class="note">These statements are the app’s own documentation for version 0.5.1 and its internal security notes, not an independent certification.</p>
+    <p class="note">These statements are the app’s own documentation for the Oriel 0.1.4 beta, its Privacy Policy 2.0 and its internal security notes, not an independent certification.</p>
 
-    <h2>Buying Oriel (not yet live)</h2>
-    <p>Payment will be handled by a payment provider that hasn’t been chosen. Before any order can be placed, this page will say which provider, what personal data it and this site collect (for example an email address and payment details), why, how long it is kept, and how to ask for it to be deleted. Until then, this website collects none of it: there is no email form and no order form.</p>
-    <p>That is separate from the app: buying the app does not add an account, and the app will not need to contact a licence server to run.</p>
+    <h2>Downloading Oriel</h2>
+    <p>Oriel is free. There is no checkout, no order, no account and no licence key, so this website asks for no email address and no payment details, and there is no form to give them in.</p>
+    <p>When the official download opens, the file will be served from the app’s public releases page on GitHub (the same place the app’s optional update check reads). Like any host, GitHub sees ordinary request details such as your IP address, under its own privacy statement; this site receives nothing from the download.</p>
 
     <h2 id="notices">Notices &amp; credits</h2>
     <p>Full third-party notices ship inside the app (Settings ▸ About ▸ License). In short:</p>
@@ -65,7 +66,7 @@
       <nav aria-label="Footer"><a href="/oriel-preview/support.html">Support</a><a href="/oriel-preview/privacy.html">Privacy</a><a href="https://github.com/Kkray19/LocalNook-fan-helper-source" rel="noopener">Fan-helper source (GPL)</a></nav>
       <div class="footer__motion"><button class="chipbtn" type="button" data-motion-toggle aria-pressed="false"><span data-motion-label>Pause motion</span></button></div>
     </div>
-    <p class="wrap legal">“Oriel” is the working new name for the app currently released as LocalNook. Oriel is independent software and isn’t affiliated with, or endorsed by, Apple, Anthropic or OpenAI.</p>
+    <p class="wrap legal">Oriel is the Mac app formerly called LocalNook. Oriel is independent software and isn’t affiliated with, or endorsed by, Apple, Anthropic or OpenAI.</p>
   </footer>
 </body>
 </html>
